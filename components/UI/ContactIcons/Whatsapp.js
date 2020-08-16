@@ -2,7 +2,7 @@ import classes from "./Icon.module.css"
 
 const whatsapp = (props) => {
     const whatsappHandler=()=>{
-        window.location.href="https://wa.me/19985187020"
+        window.location.href="https://wa.me/9494682233"
     }
     return (
         <div className={classes.Whatsapp + " col-4"} onClick={whatsappHandler}>
