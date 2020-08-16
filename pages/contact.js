@@ -3,7 +3,7 @@ import React from "react";
 const signin = () => {
     return(
         <h1>
-            signin
+            Contact
         </h1>
     )
 }

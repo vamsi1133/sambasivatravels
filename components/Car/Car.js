@@ -2,6 +2,7 @@ import React from "react";
 import SlideShow from "../Slideshow/Slideshow";
 import classes from './Car.module.css';
 import Card from "../Card/Card";
+import { Button } from "react-bootstrap";
 
 const car = props => {
     return (
@@ -18,7 +19,14 @@ const car = props => {
                     <label><em>Availability:</em></label>
                     <span> {props.availability}</span>
                 </div>
-                <hr/>
+                <div>
+                    <label><em>Registration:</em></label>
+                    <span>{props.registration}</span>
+                </div>
+                <div>
+                    <Button>BOOK</Button>
+                </div>
+                <hr />
             </Card>
         </div>
     )

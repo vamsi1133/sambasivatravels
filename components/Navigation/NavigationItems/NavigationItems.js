@@ -8,7 +8,7 @@ const navitems = props => {
     return (
             <ul onClick={props.clicked} className={classes.NavigationItems}>
                 <NavItem link="">Home</NavItem>
-                <NavItem link="Authentication">Signin</NavItem>
+                <NavItem link="contact">Contact</NavItem>
             </ul>
     )
 }
