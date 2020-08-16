@@ -1,0 +1,10 @@
+.Footer{
+    height: 60px;
+}
+
+@media(min-width:500px){
+    .Footer{
+        height: 70px;;
+    }
+    
+}

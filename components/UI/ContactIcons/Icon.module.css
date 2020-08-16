@@ -1,0 +1,20 @@
+
+.Mail{
+    background-color: #709fb0;
+    text-align: center;
+}
+.Whatsapp a{
+    size: 60px;
+}
+.Phone{
+    background-color: #00bcd4;
+    text-align: center;
+}
+.Whatsapp{
+    background-color: #519872;
+    text-align: center;
+}
+
+.Mail a{
+    color: white;
+}

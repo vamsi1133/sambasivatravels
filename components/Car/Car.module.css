@@ -1,0 +1,12 @@
+.Car{
+    display: inline-flex;
+}
+
+.Car em{
+    font-weight: bold;
+}
+
+.Car span{
+    font-style: oblique;
+    color:red;
+}
